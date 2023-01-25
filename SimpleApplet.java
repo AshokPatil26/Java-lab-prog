@@ -1,8 +1,10 @@
-import java .applet.Applet;
+import java.applet.Applet;
 import java.awt.Graphics;
-public class SimpleApplet extends Applet {
-	public void paint (Graphics g)
-	{
-		g.drawString("welcome to applet ",150,150);	
+public class SimpleApplet {
+	public void print(Graphics g){
+		g.drawString("Welcome to applet",150,150);
+		
 	}
+
 }
+
